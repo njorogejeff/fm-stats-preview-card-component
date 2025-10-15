@@ -13,57 +13,58 @@
     <title>Stats Preview Card Component</title>
   </head>
 
-  <body class="font-Inter bg-statsNavy-950 text-statsWhite-paragraph grid min-h-screen place-content-center text-center text-[15px] md:text-left">
+  <body class="font-Inter bg-statsNavy-950 text-statsWhite-paragraph grid min-h-screen place-content-center py-20 text-center text-[15px] sm:py-0 lg:text-left landscape:py-20">
     <!-- Stats Preview Card Component -->
-    <article class="bg-statsBlue-950 w-[88vw] rounded-lg md:grid md:w-full md:max-w-5xl md:grid-cols-2">
+    <article class="bg-statsBlue-950 w-[88vw] rounded-lg md:max-w-lg lg:grid lg:w-[94vw] lg:max-w-5xl lg:grid-cols-2">
       <!-- Stats Background Image -->
-      <section class="relative md:order-2">
+      <section class="relative lg:order-2">
         <img
           src="./images/image-header-mobile.jpg"
           alt="Stats Preview Image"
-          class="rounded-t-lg md:hidden"
+          class="rounded-t-lg lg:hidden"
         />
         <img
           src="./images/image-header-desktop.jpg"
           alt="Stats Preview Image"
-          class="hidden md:block md:w-full md:rounded-r-lg md:object-cover"
+          class="hidden lg:block lg:w-full lg:rounded-r-lg lg:object-cover"
         />
         <div class="bg-statsPurple-500 absolute inset-0 opacity-90 mix-blend-multiply"></div>
       </section>
 
       <!-- Stats Paragraph Section -->
-      <section class="px-10 pt-8 pb-10 md:order-1 md:flex md:flex-col md:justify-center md:pr-20 md:pl-18">
-        <h2 class="text-statsWhite-heading mb-3 text-2xl font-bold md:mb-5 md:text-3xl md:leading-normal">
-          Get <span class="text-statsPurple-500">insights</span> that help your business grow.
+      <section class="px-10 pt-8 pb-10 lg:order-1 lg:flex lg:flex-col lg:justify-center lg:pr-20 lg:pl-18">
+        <h2 class="text-statsWhite-heading mb-3 text-2xl font-bold lg:mb-5 lg:text-3xl lg:leading-normal">
+          Get <span class="text-statsPurple-500">insights</span> that help your
+          business grow.
         </h2>
-        <p class="text-statsWhite-paragraph mb-8 text-sm leading-[1.8] md:mb-18">
+        <p class="text-statsWhite-paragraph mb-8 text-sm leading-[1.8] lg:mb-18">
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </p>
 
         <!-- Stats Section -->
-        <section class="flex flex-col items-center justify-between gap-y-5 md:flex-row md:gap-x-12 md:justify-self-start">
+        <section class="flex flex-col items-center justify-between gap-y-5 lg:flex-row lg:gap-x-12 lg:justify-self-start">
           <div>
-            <h3 class="text-statsWhite-heading text-xl font-bold md:text-2xl">
+            <h3 class="text-statsWhite-heading text-xl font-bold lg:text-2xl">
               10k+
             </h3>
-            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase md:text-xs">
+            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase lg:text-xs">
               companies
             </p>
           </div>
           <div>
-            <h3 class="text-statsWhite-heading text-xl font-bold md:text-2xl">
+            <h3 class="text-statsWhite-heading text-xl font-bold lg:text-2xl">
               314
             </h3>
-            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase md:text-xs">
+            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase lg:text-xs">
               templates
             </p>
           </div>
           <div>
-            <h3 class="text-statsWhite-heading text-xl font-bold md:text-2xl">
+            <h3 class="text-statsWhite-heading text-xl font-bold lg:text-2xl">
               12M+
             </h3>
-            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase md:text-xs">
+            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase lg:text-xs">
               queries
             </p>
           </div>
