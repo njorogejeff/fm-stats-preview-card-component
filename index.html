@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./images/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Stats Preview Card Component</title>
+  </head>
+
+  <body class="font-Inter bg-statsNavy-950 text-statsWhite-paragraph grid min-h-screen place-content-center text-center text-[15px] md:text-left">
+    <!-- Stats Preview Card Component -->
+    <article class="bg-statsBlue-950 w-[88vw] rounded-lg md:grid md:w-full md:max-w-5xl md:grid-cols-2">
+      <!-- Stats Background Image -->
+      <section class="relative md:order-2">
+        <img
+          src="./images/image-header-mobile.jpg"
+          alt="Stats Preview Image"
+          class="rounded-t-lg md:hidden"
+        />
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="Stats Preview Image"
+          class="hidden md:block md:w-full md:rounded-r-lg md:object-cover"
+        />
+        <div class="bg-statsPurple-500 absolute inset-0 opacity-90 mix-blend-multiply"></div>
+      </section>
+
+      <!-- Stats Paragraph Section -->
+      <section class="px-10 pt-8 pb-10 md:order-1 md:flex md:flex-col md:justify-center md:pr-20 md:pl-18">
+        <h2 class="text-statsWhite-heading mb-3 text-2xl font-bold md:mb-5 md:text-3xl md:leading-normal">
+          Get <span class="text-statsPurple-500">insights</span> that help your business grow.
+        </h2>
+        <p class="text-statsWhite-paragraph mb-8 text-sm leading-[1.8] md:mb-18">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <!-- Stats Section -->
+        <section class="flex flex-col items-center justify-between gap-y-5 md:flex-row md:gap-x-12 md:justify-self-start">
+          <div>
+            <h3 class="text-statsWhite-heading text-xl font-bold md:text-2xl">
+              10k+
+            </h3>
+            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase md:text-xs">
+              companies
+            </p>
+          </div>
+          <div>
+            <h3 class="text-statsWhite-heading text-xl font-bold md:text-2xl">
+              314
+            </h3>
+            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase md:text-xs">
+              templates
+            </p>
+          </div>
+          <div>
+            <h3 class="text-statsWhite-heading text-xl font-bold md:text-2xl">
+              12M+
+            </h3>
+            <p class="text-statsWhite-heading-2 font-Lexend text-[0.625rem] tracking-widest uppercase md:text-xs">
+              queries
+            </p>
+          </div>
+        </section>
+      </section>
+    </article>
+  </body>
+</html>
